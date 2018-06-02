@@ -147,10 +147,7 @@ main figure.img2 img {
     width: 100%;    
 }
 
-main figure.img2 figcaption{
-    text-align: center;
-    font-size: .75rem;
-}
+
 
 /*-----FOOTER-----*/
 footer {
