@@ -118,10 +118,25 @@ h3 {
     text-align: center;
 }
 
-main {}
+/*-----MAIN-----*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
 main h2 {}
-main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { }
+main figure.img2 { 
+    width:50%; 
+    margin: 0 0 0 2%;
+    float: right;
+}
+main figure.img2 img {
+    width: 100%;    
+}
+
+main figure.img2 figcaption{
+    text-align: center;
+    font-size: .75rem;
+}
 
 /*-----FOOTER-----*/
 footer {
