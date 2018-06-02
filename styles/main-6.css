@@ -27,26 +27,40 @@ header figure.logo{
 }
 
 /*-----NAVIGATION-----*/
-ul {
+
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color:#555;
+}
+
+nav{
+    background-color: #aa0000;
+    font-family: Verdana, sans-serif;
+}
+
+nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: gray;
 }
 
-li {
-    float: left;
-}
-
-li a {
+nav ut li a{
     display: block;
-    color: white;
-    text-align: center;
-    padding: ;
+    padding: .8rem 2%;
     text-decoration: none;
+    color: #000;
+    border-top: :1px solid rgba(0,0,0,0.3);
 }
 
+nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
+
+nav ul li a:hover{background-color: rgba(0,0,0,0.4); }
+
+nav ul.hide{display:none;
+}
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
