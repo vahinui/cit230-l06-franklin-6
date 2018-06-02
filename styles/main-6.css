@@ -1,24 +1,23 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-/*header here*/
+/*-----header here-----*/
 
 header {
-  
+    padding: .5em 2%;
+    background-color: #ddd;
 }
 header h1 {
-    text-align: center;
+    margin:0;
     font-family: 'Fjalla One', sans-serif;
 }
 header h2 {
-    text-align: center;
+    margin: 0;
+    font-weight: normal;
     font-family: 'Neuton', serif;
 }
-header img {
-    background-color: none;
-}
-header p {
-   text-align: center;
-   font-family: serif;
+header figure.logo{
+    float: left;
+    margin: 0;
 }
 
  /* This wildcard applies to all elements ensuring a box layout model */
@@ -27,7 +26,7 @@ header p {
     margin: 10;
 }
 
-/*NAVIGATION*/
+/*-----NAVIGATION-----*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -53,7 +52,7 @@ li a:hover {
     background-color: #111;
 }
 
-/*BODY*/
+/*-----BODY-----*/
 body {
   align-content: center;
   font-size: 16px;
@@ -124,7 +123,7 @@ main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { }
 
-/*Footer*/
+/*-----FOOTER-----*/
 footer {
     text-align: center;
     color: white;
@@ -137,4 +136,11 @@ footer {
 .footer-bar{
     background-color: gray;
     padding: 10px;
+}
+
+/*-----Clearfix-----*/
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
 }
