@@ -2,24 +2,26 @@
 
     /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
     
-    nav button { display: none; }  /* hamburger button does not need to be shown in the medium on up views */
+    nav button { display: none; }
+    
+    nav ul.hide{display:block;}
+    
+    nav ul {
+        margin-left: 2%;
+    }
+    
+    nav ul li{
+        float: left;
+    }
+    nav ul li a{
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .8rem 1rem;
+    }
     
     #section .smallview { display:  none; }  /* show the 10-day forecast with the medium view and up */
 
-  }
-.nav {
-   background-color: gray;
-}
-
-nav button {}
-ul {
-    list-style-type: none;
-    margin: 10px;
-    padding: 10px;
-    background-color: ;
-    text-align: center;
     
-}
-li {
-   display: inline;
-}
+  }
+
+/*end medium*/
