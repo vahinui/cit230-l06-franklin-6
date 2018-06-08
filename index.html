@@ -7,29 +7,31 @@
     <meta name="description" content="l06-assignment: weather site">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main-6.css" type= "text/css">
-    <link rel="stylesheet" href="styles/large-6.css" media="(min-width:37.5em)" type="text/css">
-    <link rel="stylesheet" href="styles/medium-6.css" media="(min-width:64em)" type="text/css">
+    <link rel="stylesheet" href="styles/medium-6.css" media="(min-width:37.5em)" type="text/css">
+    <link rel="stylesheet" href="styles/large-6.css" media="(min-width:64em)" type="text/css">
+    
     
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     
-    <script type="text/javascript"> src="scripts/currentdate.js"</script>
+    <script src="scripts/currentdate.js"></script>
     
 </head>
 <body>
+    
+    
 <!--HEADER HERE-->
   <header>
-      <figure class="logo"> 
+      <picture> 
           <img src="images/logo1.jpg" alt="logo">
-      </figure>
+      </picture>
           
-    <h1>Get Ready to Know Your Weather</h1>
-    <h2><em>Your</em> Home, <em>Your</em> Weather</h2>
-    
-     
-      
+    <h1 class="title">Get Ready to Know Your Weather</h1>
+    <h2 class="subtitle"><em>Your</em> Home, <em>Your</em> Weather</h2>       
   </header>
+    
+    
 <!--NAVIGATION HERE-->  
     <nav class="clearfix">
         <button onclick="toggleMenu">&#97776;</button>
@@ -43,92 +45,92 @@
         </ul>		
     </nav>
 
+    
 <!--CONTENT HERE-->    
   <main> 
       
-      <figure class="requiredphoto">
-        <img src="images/franklin-original.jpeg" alt="Franklin lansdacpe picture" 
+      <figure class="firstphoto">
+        <img src="images/franklin%20test%201.jpg" alt="Franklin lansdacpe picture" 
         sizes="(max-width:600px) 80vw, 100vw" srcset="images/franklin-original1 x2. images/franklin-original2 x3, images/franklin-original3 x1">
       </figure>
       
-    <section class="summary">
-      <h3>Franklin: Weather Data</h3>    
-      <table>
-        <thead>
-            <tr>
-                <td class="sum-td">High</td>
-                <td>90&#8457;</td>
-            </tr>
-        </thead>
-        <thead>
-            <tr>
-                <td class="sum-td">Low</td>
-                <td>66&#8457;</td>
-            </tr>
-        </thead>
-        <thead>
-            <tr>
-                <td class="sum-td">Summary</td>
-                <td>Sunny</td>
-            </tr>
-        </thead>
-        <thead>
-            <tr>
-                <td class="sum-td">Predication </td>
-                <td>0&#37;</td>
-            </tr>  
-        </thead>
-        <thead>
-          <tr>
-            <td class="sum-td">Wind speed</td> 
-            <td>5 mph SW</td>
-          </tr>
-        </thead>
-      </table>       
-    </section>
+      <h2>Franklin</h2>
+      
+      <section class="summary">
+        <h3>Franklin: Weather Data</h3>
+        <h3>Sunny</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <td class="sum-td">High</td>
+                        <td>90&#8457;</td>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <td class="sum-td">Low</td>
+                        <td>66&#8457;</td>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <td class="sum-td">Summary</td>
+                        <td>Sunny</td>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <td class="sum-td">Predication </td>
+                        <td>0&#37;</td>
+                    </tr>  
+                </thead>
+                <thead>
+                    <tr>
+                        <td class="sum-td">Wind speed</td> 
+                        <td>5 mph SW</td>
+                    </tr>
+                </thead>
+            </table>       
+      </section>
         
-    <section id="smallview" class="forecast">
-      <h3>Ten Day Forecast</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Day 1</th>
-            <th>Day 2</th>
-            <th>Day 3</th>
-            <th>Day 4</th>
-            <th>Day 5</th>
-            <th>Day 6</th>
-            <th>Day 7</th>
-            <th>Day 8</th>
-            <th>Day 9</th>
-            <th>Day 10</th>
-          </tr>
-	   </thead>
-        <tbody>  
-          <tr>
-            <td>89&deg;F</td>
-            <td>87&deg;F</td>
-            <td>78&deg;F</td>
-            <td>75&deg;F</td>
-            <td>72&deg;F</td>
-            <td>72&deg;F</td>
-            <td>79&deg;F</td>
-            <td>83&deg;F</td>
-            <td>85&deg;F</td>
-            <td>89&deg;F</td>
-          </tr>
-	</tbody>
-      </table>
+      <section class="forecast">
+        <h3>Ten Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+	           </thead>
+            <tbody>  
+                <tr>
+                    <td>89&deg;F</td>
+                    <td>87&deg;F</td>
+                    <td>78&deg;F</td>
+                    <td>75&deg;F</td>
+                    <td>72&deg;F</td>
+                    <td>72&deg;F</td>
+                    <td>79&deg;F</td>
+                    <td>83&deg;F</td>
+                    <td>85&deg;F</td>
+                    <td>89&deg;F</td>
+                </tr>
+	       </tbody>
+          </table>
     </section>
       
     <article>
-      <h3>Franklin Breaks Record</h3>
-        
-      <figure>
-        <img class="img2" src="images/girl1.jpg" alt="girl">
-      </figure>
-      
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
+      <h3 class="box">Franklin Breaks Record</h3>
+        <img class="img2" src="images/girl1.jpg" alt="girl">      
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
     </article>		  
   
   </main>
@@ -144,6 +146,7 @@
     <section class="footer-bar">&copy;2018 | All Rights Reserved | Get Ready to Know Your Weather | <span id="currentdate"></span>
     </section>
   </footer>
+    <script src="scripts/hamburger.js"></script>
 
 </body>
 </html>
