@@ -15,9 +15,13 @@ header h2 {
     font-weight: normal;
     font-family: 'Neuton', serif;
 }
-header figure.logo{
-    float: left;
-    margin: 20;
+header img {
+    float:left;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-left:2%;
+       
 }
 
  /* This wildcard applies to all elements ensuring a box layout model */
@@ -37,8 +41,9 @@ nav button{
 }
 
 nav{
-    background-color: #aa0000;
+    background-color: gray;
     font-family: Verdana, sans-serif;
+   
 }
 
 nav ul{
@@ -52,7 +57,7 @@ nav ut li a{
     padding: .8rem 2%;
     text-decoration: none;
     color: #000;
-    border-top: :1px solid rgba(0,0,0,0.3);
+    
 }
 
 nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
@@ -134,10 +139,12 @@ h3 {
 
 /*-----MAIN-----*/
 main {
-    padding: 0 2%;
+    padding: 0;
     min-height: 10rem;
 }
 main h2 {}
+main figure.firstphoto{width: 100%; margin:0}
+main figure.firstphoto img{width: 100%;}
 main figure.img2 { 
     width:50%; 
     margin: 0 0 0 2%;

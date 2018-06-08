@@ -1,9 +1,21 @@
 
-/*64em is also 1028px when basefont is 16px*/
-@media only screen and (min-width: 64em ) {
- 
-    nav ul li a{padding: .6rem 1rem;}
-  
-  }/*end large*/
-
-
+@media only screen and (min-width: 64em){ /*{
+        body{
+         width:75%;
+         margin:0 auto;
+    }
+    
+nav ul li {
+    display:inline;
+}
+    nav ul li a {
+        padding: .6em 1em;
+    }*/
+    header, nav, main, footer{
+        max-width: 64em;
+        margin: auto;
+    }
+    nav ul li a{
+        padding: .8rem .5rem;
+}
+}
