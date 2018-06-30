@@ -60,16 +60,13 @@ nav ul li a{
     
 }
 
-nav ul li a:hover{background-color: rgba(0,0,0,0.4); }
 
 nav ul li.active a{background-color: rgba(0,0,0,0.4); color: #fff;}
 
-nav ul.hide{display:none;
-}
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
+nav ul li a:hover{background-color: rgba(0,0,0,0.4); }
+
+
+
 
 /*-----BODY-----*/
 body {
