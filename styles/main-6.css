@@ -4,7 +4,7 @@
 
 header {
     padding: .5em 2%;
-    background-color: #ddd;
+    background-color: white;
 }
 header h1 {
     margin:0;
@@ -41,9 +41,8 @@ nav button{
 }
 
 nav{
-    background-color: gray;
+    background-color: #ccc;
     font-family: Verdana, sans-serif;
-   
 }
 
 nav ul{
@@ -52,17 +51,18 @@ nav ul{
     padding: 0;
 }
 
-nav ut li a{
+nav ul li a{
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
     color: #000;
+    border-top: 1px solid rgba(0,0,0,0.3);
     
 }
 
-nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
-
 nav ul li a:hover{background-color: rgba(0,0,0,0.4); }
+
+nav ul li.active a{background-color: rgba(0,0,0,0.4); color: #fff;}
 
 nav ul.hide{display:none;
 }
